@@ -8,12 +8,12 @@ public class BlackJack {
 
         int puntaje;
  		
-        manoJugador.pideCarta(deck.hit());
+        
                 
         
-        for(int i=0;i<3;i++){
-            System.out.println("tu acumulado es: "+manoJugador.getAcumulado());
+        for(int i=0;i<2;i++){
+            manoJugador.pideCarta(deck.hit());
 	}
-
+        System.out.println("tu acumulado es: "+manoJugador.getAcumulado());
 }
 }
